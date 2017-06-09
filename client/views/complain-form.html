@@ -1,0 +1,54 @@
+<section>
+  <form name="form" ng-submit="submitForm()">
+    <fieldset>
+      <legend>{{action}} Complain form</legend>
+
+     <!-- <div class="form-group">
+        <label>Area</label>
+        <select
+            ng-disabled="isDisabled"
+            ng-model="selectedShop"
+            ng-options="shop as shop.name for shop in coffeeShops"></select>
+      </div>
+
+      <div class="form-group">
+        <label>Rating</label>
+        <input type="radio" ng-model="review.rating" value="1">1&#9733;
+        <input type="radio" ng-model="review.rating" value="2">2&#9733;
+        <input type="radio" ng-model="review.rating" value="3">3&#9733;
+        <input type="radio" ng-model="review.rating" value="4">4&#9733;
+        <input type="radio" ng-model="review.rating" value="5">5&#9733;
+      </div>
+-->
+      <div class="form-group">
+        <label>Subject</label>
+        <textarea ng-model="complain.subject" ng-disabled="disable"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Description</label>
+        <textarea ng-model="complain.description" ng-disabled="disable"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Attachment</label>
+        <textarea ng-model="complain.attachment" ng-disabled="disable"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label ng-hide="hidden">status</label>
+        <textarea ng-model="complain.status"  ng-disabled="enable"  ng-hide="hidden"></textarea>
+      </div>
+
+      <div class="form-froup">
+        <p>{{error}}</p>
+      </div>
+
+
+      <div class="actions">
+        <label></label>
+        <button ng-hide="btnHide">{{action}} complain</button>
+      </div>
+    </fieldset>
+  </form>
+</section>
