@@ -36,15 +36,15 @@
     "public": false
   },
   "Area": {
-    "dataSource": "mysqlDS",
+    "dataSource": "db",
     "public": true
   },
   "Complain": {
-    "dataSource": "mongodbDS",
+    "dataSource": "db",
     "public": true
   },
   "Complainer": {
-    "dataSource": "mongodbDS",
+    "dataSource": "db",
     "public": true
   }
 }
