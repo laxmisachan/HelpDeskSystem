@@ -1,0 +1,26 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 2,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Area": 1,
+    "Complain": 2,
+    "Complainer": 2
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Area": {},
+    "Complain": {
+      "1": "{\"date\":\"2017-06-13T02:16:27.395Z\",\"subject\":\"Road potholes\",\"description\":\"potholes creating havoc\",\"status\":\"N\",\"complainerID\":1,\"id\":1}"
+    },
+    "Complainer": {
+      "1": "{\"password\":\"$2a$10$BN1Z5ACMfPk0/1R03G8T8Ofhs3A4CZNp3NC3Ub7j74RajhZsiqL4i\",\"email\":\"laxmi@test.com\",\"id\":1}"
+    }
+  }
+}
