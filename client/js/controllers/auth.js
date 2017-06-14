@@ -1,19 +1,14 @@
 /**
- * Created by PCK on 22-May-17.
+ * Created by Laxmi on 22-May-17.
  */
-// Copyright IBM Corp. 2015. All Rights Reserved.
-// Node module: loopback-getting-started-intermediate
-// This file is licensed under the MIT License.
-// License text available at https://opensource.org/licenses/MIT
+
 
 angular
   .module('app')
   .controller('AuthLoginController', ['$rootScope','$scope', 'AuthService', '$state',
     function($rootScope,$scope, AuthService, $state) {
       $scope.user = {
-      //  email: 'foo@bar.com',
-      //  password: 'foobar'
-      };
+            };
       $scope.error="";
      $rootScope.admin='admin@test.com';
 
@@ -63,8 +58,7 @@ angular
   .controller('SignUpController', ['$scope', 'AuthService', '$state',
     function($scope, AuthService, $state) {
       $scope.user = {
-       // email: 'baz@qux.com',
-       // password: 'bazqux'
+
       };
 
       $scope.error = "";

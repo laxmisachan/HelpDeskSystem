@@ -1,10 +1,7 @@
 /**
- * Created by PCK on 22-May-17.
+ * Created by Laxmi on 22-May-17.
  */
-// Copyright IBM Corp. 2015. All Rights Reserved.
-// Node module: loopback-getting-started-intermediate
-// This file is licensed under the MIT License.
-// License text available at https://opensource.org/licenses/MIT
+
 
 angular
   .module('app', [
